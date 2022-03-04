@@ -336,7 +336,7 @@ function Fighting(game){
 		box.addChild(game.add.text(20, 50, playerData[0],ifont));
 		lifeText = game.add.text(120, 20, " HP : " + playerData[3] ,ifont);
 		box.addChild(lifeText);
-		box.addChild(game.add.text(120, 40, "法力 : " + playerData[4] ,ifont));
+		box.addChild(game.add.text(120, 40, "mana : " + playerData[4] ,ifont));
 		//monster
 		var img = (monsterData[fightingID][1]%4)*3+parseInt(monsterData[fightingID][1]/4)*48;
 		monster = game.add.sprite(300, 160, 'sheet-monster', img+1)
