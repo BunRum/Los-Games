@@ -6,10 +6,13 @@ var npcData = [
 	["angry youth", 4,  5, 10,"The old village chief must be hiding something from us...|My dream is to save the world, and now is my chance!|Don't disturb me, I want to practice.", 2, 1],
 	["village chief", 6, 15, 10,"I am old, and it is up to you young people to save the world. | If only I could find the legendary Yitian Sword...", 1, 0]
 ];
-//怪物数据:名字、图片id、x、y、生命、攻击力、对话内容
+//Monster data: name, picture id, x, y, life, attack power, dialogue content
 var monsterData = [
 	["Soy Ganon",0,20,25,50,10,"aint no way……"],
-	["Gohan Blanco!!!!",2,28,25,200,50,"cold af……"]
+	["Gohan Blanco!!!!",2,28,25,200,50,"cold af……"],
+	["Soy Ganon",1,20,25,50,10,"aint no way……"],
+	["Soy Ganon",3,20,25,50,10,"aint no way……"],
+	["Soy Ganon",4,20,25,50,10,"aint no way……"],
 ];
 var playerData = ["Adam Ventura",8,2,100,1000,100,1000,0,0]; //name, x coordinate, y coordinate, HP, MP, HPMAX, MPMAX, weapon id, armor id
 var weapons = [["Wood Sword",1],["iron sword",500],["Eternal Sword",1000]];
