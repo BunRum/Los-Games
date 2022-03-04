@@ -54,8 +54,8 @@ function Loading(game){
 function GameMenu(game){
 	this.create = function() {
 		var box = game.add.sprite(0,200,game.make.bitmapData(game.width, game.height));
-		box.addChild(game.add.text(180, 0, "从前，有一个小村庄……",{fontSize:'20px',fill:'#fff'}));
-		box.addChild(game.add.text(180, 30, "好了，点击下面按钮开始吧！",{fontSize:'20px',fill:'#fff'}));
+		box.addChild(game.add.text(180, 0, "once upon a time，there is a small village……",{fontSize:'20px',fill:'#fff'}));
+		box.addChild(game.add.text(180, 30, "All right，Click the button below to get started！",{fontSize:'20px',fill:'#fff'}));
 		box.alpha = 0;
 		game.add.tween(box).to({alpha:1,y:150},3000,"Linear",true);
 
@@ -66,9 +66,9 @@ function GameMenu(game){
 function GameWin(game){
 	this.create = function() {
 		var box = game.add.sprite(0, 200, game.make.bitmapData(game.width, game.height));
-		box.addChild(game.add.text(180, 0, "传说中的倚天剑重现江湖！",{fontSize:'20px',fill:'#fff'}));
-		box.addChild(game.add.text(180, 30, "张有忌从此踏上了一条不归路……",{fontSize:'20px',fill:'#fff'}));
-		box.addChild(game.add.text(180, 60, "英雄，保重！",{fontSize:'20px',fill:'#fff'}));
+		box.addChild(game.add.text(180, 0, "The legendary Yitian sword reappears in the rivers and lakes！",{fontSize:'20px',fill:'#fff'}));
+		box.addChild(game.add.text(180, 30, "Adam ventura has since embarked on a road of no return……",{fontSize:'20px',fill:'#fff'}));
+		box.addChild(game.add.text(180, 60, "Hero，Take care of yourself！",{fontSize:'20px',fill:'#fff'}));
 		box.alpha = 0;
 		game.add.tween(box).to({alpha:1,y:120},3000,"Linear",true);
 
@@ -82,8 +82,8 @@ function GameWin(game){
 function GameOver(game){
 	this.create = function() {
 		var box = game.add.sprite(0, 200, game.make.bitmapData(game.width, game.height));
-		box.addChild(game.add.text(180, 0, "啥？死了？……",{fontSize:'20px',fill:'#fff'}));
-		box.addChild(game.add.text(180, 30, "壮志未酬身先死，刷新一下又再来……",{fontSize:'20px',fill:'#fff'}));
+		box.addChild(game.add.text(180, 0, "What? Dead? ..",{fontSize:'20px',fill:'#fff'}));
+		box.addChild(game.add.text(180, 30, "Die before you get your ambitions, refresh - come back with the fork.. .",{fontSize:'20px',fill:'#fff'}));
 		box.alpha = 0;
 		game.add.tween(box).to({alpha:1,y:150},3000,"Linear",true);
 
