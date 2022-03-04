@@ -12,13 +12,13 @@ var monsterData = [
 	["Gohan Blanco!!!!",2,28,25,200,50,"cold af……"]
 ];
 var playerData = ["Adam Ventura",8,2,1000,1000,1000,1000,0,0]; //名字，x坐标，y坐标，HP，MP，HPMAX，MPMAX，武器id，防具id
-var weapons = [["木剑",100],["铁剑",500],["倚天剑",1000]];
-var armors = [["布衣",10],["皮衣",50],["天蚕衣",100]];
+var weapons = [["Wood Sword",100],["iron sword",500],["Eternal Sword",1000]];
+var armors = [["Commoner",10],["leather jacket",50],["Silkworm clothes",100]];
 //打怪任务:元素意义分别为：激活状态、怪物ID、任务数值、当前数值、任务标题、参数……
 var taskData = [
 	[9,0,1,1,"空事件","……",0,0],
-	[0,0,1,0,"杀掉狼人","如果你能杀掉那个狼人，我将送你一把铁剑。","小伙子勇气可嘉，这把铁剑拿去吧！",1,0],
-	[0,1,1,0,"杀掉牛怪","那牛怪太厉害了，千万别靠近它！","惭愧，我留这倚天剑何用？给你了！",2,0]
+	[0,0,1,0,"kill werewolf","Slay the wolf，and i will grant u an iron sword。","brave boy，take this iron sword！",1,0],
+	[0,1,1,0,"kill the bull","That bull monster is awesome，don't get close to it！","ashamed，Why should I keep this Heavenly Sword? Here you go!",2,0]
 ];
 var fightingID = 0; //战斗目标的ID，对应monsterData的元素索引
 
