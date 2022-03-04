@@ -1,10 +1,10 @@
 //NPCDATA:名字、图片id、x(地图块坐标)、y(地图块坐标)、对话内容、事件标志（用于激活相应的任务）
 var npcData = [
-	["萝莉", 1,  5,  5,"好好的一个村子说没就没了，呜呜~~~|我和弟弟走散了，你能帮我找他回来吗？", 0, 0],
-	["吃瓜", 2, 18,  5,"怪物！怪物！|哇！你这么丑，不会是怪物变的吧？", 0, 0],
-	["花痴", 3, 25,  5,"听说几百年前也发生过类似的事情！|你就是传说中的救世英雄吗？看着不像啊。|传说救世英雄是一个英俊潇洒的小伙子~~~", 0, 0],
-	["愤青", 4,  5, 10,"老村长肯定有什么事瞒着我们……|我的梦想就是拯救世界，现在机会来了！|别打搅我，我要练功呢。", 2, 1],
-	["村长", 6, 15, 10,"我老了，拯救世界就靠你们年轻人了。|如果能找到传说中的倚天剑就好了……", 1, 0]
+	["loli", 1,  5,  5,"A good village is gone，woohoo~~~|My brother and I got separated，can you help me get him back？", 0, 0],
+	["eat melon", 2, 18,  5,"Monster! Monster! | Wow! You're so ugly, you can't be a monster, right?", 0, 0],
+	["anthomaniac", 3, 25,  5,"I heard that something similar happened hundreds of years ago!|Are you the legendary savior? It doesn't look like it.|The legendary savior is a handsome young man~~~", 0, 0],
+	["angry youth", 4,  5, 10,"The old village chief must be hiding something from us...|My dream is to save the world, and now is my chance!|Don't disturb me, I want to practice.", 2, 1],
+	["village chief", 6, 15, 10,"I am old, and it is up to you young people to save the world. | If only I could find the legendary Yitian Sword...", 1, 0]
 ];
 //怪物数据:名字、图片id、x、y、生命、攻击力、对话内容
 var monsterData = [
