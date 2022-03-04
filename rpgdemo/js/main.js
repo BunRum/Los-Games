@@ -12,7 +12,7 @@ var monsterData = [
 	["Gohan Blanco!!!!",2,28,25,200,50,"cold af……"]
 ];
 var playerData = ["Adam Ventura",8,2,1000,1000,1000,1000,0,0]; //名字，x坐标，y坐标，HP，MP，HPMAX，MPMAX，武器id，防具id
-var weapons = [["Wood Sword",100],["iron sword",500],["Eternal Sword",1000]];
+var weapons = [["Wood Sword",1],["iron sword",500],["Eternal Sword",1000]];
 var armors = [["Commoner",10],["leather jacket",50],["Silkworm clothes",100]];
 //打怪任务:元素意义分别为：激活状态、怪物ID、任务数值、当前数值、任务标题、参数……
 var taskData = [
