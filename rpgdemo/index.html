@@ -83,7 +83,7 @@ function GameOver(game){
 	this.create = function() {
 		var box = game.add.sprite(0, 200, game.make.bitmapData(game.width, game.height));
 		box.addChild(game.add.text(180, 0, "What? Dead? ..",{fontSize:'20px',fill:'#fff'}));
-		box.addChild(game.add.text(180, 30, "Die before you get your ambitions, refresh - come back with the fork.. .",{fontSize:'20px',fill:'#fff'}));
+		box.addChild(game.add.text(-50, 30, "Die before you get your ambitions, refresh - come back with the fork.. .",{fontSize:'20px',fill:'#fff'}));
 		box.alpha = 0;
 		game.add.tween(box).to({alpha:1,y:150},3000,"Linear",true);
 
