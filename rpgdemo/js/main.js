@@ -292,11 +292,11 @@ function ViewInfo(game){
 		var box = game.add.sprite(2, 2, boximg);
 		box.addChild(game.add.sprite(25, 30, 'sheet-hero', 1)).scale.setTo(2,2);
 		var ifont = {fontSize:'16px',fill:'#fff'};
-		box.addChild(game.add.text(120, 20, "姓名 : "+playerData[0],ifont));
-		box.addChild(game.add.text(120, 40, "生命 : " + playerData[3] + " / " + playerData[5],ifont));
-		box.addChild(game.add.text(120, 60, "法力 : " + playerData[4] + " / " + playerData[6],ifont));
-		box.addChild(game.add.text(120, 80, "武器 : " + weapons[playerData[7]][0],ifont));
-		box.addChild(game.add.text(120, 100, "防具 : " + armors[playerData[8]][0],ifont));
+		box.addChild(game.add.text(120, 20, "Name : "+playerData[0],ifont));
+		box.addChild(game.add.text(120, 40, "HP : " + playerData[3] + " / " + playerData[5],ifont));
+		box.addChild(game.add.text(120, 60, "mana : " + playerData[4] + " / " + playerData[6],ifont));
+		box.addChild(game.add.text(120, 80, "weapons : " + weapons[playerData[7]][0],ifont));
+		box.addChild(game.add.text(120, 100, "armour : " + armors[playerData[8]][0],ifont));
 
 		var buttonClose = game.add.button(574, 2, 'button-x', null, this, 0, 1, 0, 1);
 		buttonClose.events.onInputDown.add(function(){game.state.start('gamemain');});
@@ -334,7 +334,7 @@ function Fighting(game){
 		box.addChild(game.add.sprite(25, 10, 'sheet-hero', 1));
 		var ifont = {fontSize:'16px',fill:'#fff'};
 		box.addChild(game.add.text(20, 50, playerData[0],ifont));
-		lifeText = game.add.text(120, 20, "生命 : " + playerData[3] ,ifont);
+		lifeText = game.add.text(120, 20, " HP : " + playerData[3] ,ifont);
 		box.addChild(lifeText);
 		box.addChild(game.add.text(120, 40, "法力 : " + playerData[4] ,ifont));
 		//monster
@@ -436,7 +436,7 @@ function Fighting(game){
 							myTurn = true;
 						},this);
 						player.life -= killValue;
-						lifeText.text = "生命 : " + player.life;
+						lifeText.text = "Health : " + player.life;
 						if(player.life<=0){ isOver = true; }
 
 					}
